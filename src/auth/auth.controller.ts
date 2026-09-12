@@ -6,6 +6,7 @@ import { LoginDto } from './dto/login.dto';
 export class AuthController {
   constructor(private auth: AuthService) {}
 
+  
 
   
   @Post('register')
